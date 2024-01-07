@@ -9,6 +9,23 @@ body {
     font-size: 45px;
 }
 
+.section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.section-description {
+    color: var(--Dark-03, #757575);
+    text-align: center;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 30px;
+}
 
 /* all buttons */
 .btn1 {
@@ -21,7 +38,7 @@ body {
     padding: 5px 10px;
 }
 
-.btn2{
+.btn2 {
     border-radius: 5px;
     border-color: #FD6E0A;
     font-size: 20px;
@@ -65,14 +82,63 @@ nav a {
 /* header related styles */
 .header {
     background-color: #FFF8F3;
+    background-image: url('../images/header_bg.png');
+    background-repeat: no-repeat;
+    background-position: bottom right;
 }
 
 .banner {
-    padding: 30px 30px 30px 150px;
+    padding: 30px 30px 0px 150px;
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 
 .banner .profile-pic {
-    width: 408px;
-    height: 473px;
+    width: 584px;
+    height: 676px;
 }
+
+.banner-greeting {
+    color: var(--Dark-02, #474747);
+    font-size: 45px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+.banner-title {
+    color: var(--Dark-01, #181818);
+    font-size: 85px;
+    font-style: normal;
+    font-weight: 700;
+    margin-top: 5px;
+}
+
+.banner-caption {
+    max-width: 500px;
+    color: var(--Dark-01, #181818);
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+/* main section items */
+
+/* about section */
+.about {
+    background-color: #ffeada;
+    margin: 130px;
+    padding: 50px 120px;
+}
+
+/* .section-title {
+    text-align: center;
+    margin-bottom: 40px;
+    color: var(--Dark-01, #181818);
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 700;
+} */
