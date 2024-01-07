@@ -214,3 +214,12 @@ main section {
     text-align: center;
     margin-top: 45px;
 }
+
+
+
+/*footer section*/
+footer{
+    display: flex;
+    background-color: rgb(253, 208, 192);
+    padding: 130px 150px;
+}
