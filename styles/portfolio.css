@@ -134,6 +134,15 @@ nav a {
     padding: 50px 120px;
 }
 
+.about-info-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.about-info{
+    text-align: center;
+}
+
 /* .section-title {
     text-align: center;
     margin-bottom: 40px;
@@ -142,3 +151,8 @@ nav a {
     font-style: normal;
     font-weight: 700;
 } */
+
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
